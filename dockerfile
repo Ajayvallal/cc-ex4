@@ -12,7 +12,6 @@ RUN apt-get update && apt-get install-y \
     int1 \
     zip \
     && a2enod rewriter
-
 #expose port 80
 EXPOSE 80
 #Define the entry point for the container
